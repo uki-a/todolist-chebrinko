@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ItemList from './TaskList.vue'
+import TodoList from './TodoList.vue'
 
 defineProps<{
   msg: string
@@ -9,6 +9,6 @@ defineProps<{
 <template>
   <div class="greetings">
     <h1>{{ msg }}</h1>
-    <ItemList />
+    <TodoList />
   </div>
 </template>
